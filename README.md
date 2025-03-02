@@ -25,6 +25,7 @@ calculator-app/
 
 2. Install requirements:
    ```bash
+   cd calculator-app
    pip install -r requirements.txt
    ```
 
