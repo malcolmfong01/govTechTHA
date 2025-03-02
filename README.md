@@ -23,7 +23,7 @@ calculator-app/
 
 ## Setup Instructions
 
-2. Install requirements:
+Install requirements:
    ```bash
    cd calculator-app
    pip install -r requirements.txt
@@ -31,23 +31,22 @@ calculator-app/
 
 ## Running the Application
 
-1. Start the backend server:
+1. Start the backend server (Make sure to navigate to calculator-app/backend):
 
    ```bash
-   cd backend
    python app.py
    ```
 
 2. Open the frontend:
+
    - Navigate to `calculator-app/frontend`
    - Open `index.html` in your web browser
 
 ## Testing
 
-To run the backend tests:
+To run the backend tests (Make sure to navigate to calculator-app/backend):
 
 ```bash
-cd backend
 python -m pytest test_app.py
 ```
 
