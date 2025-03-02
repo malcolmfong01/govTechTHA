@@ -1,4 +1,4 @@
-# Calculator Application
+# Addition/Subtraction Web Application
 
 A full-stack calculator application with a JavaScript frontend and Python/Flask backend.
 
@@ -7,39 +7,24 @@ A full-stack calculator application with a JavaScript frontend and Python/Flask 
 ```
 calculator-app/
 ├── frontend/
-│   ├── index.html      # Main HTML file
-│   └── Calculator.js   # Calculator logic
-└── backend/
-    ├── app.py         # Flask server
-    ├── test_app.py    # Backend tests
-    └── requirements.txt # Backend dependencies
+│   ├── index.html
+│   └── Calculator.js
+├── backend/
+│   ├── app.py
+│   ├── test_app.py
+└── requirements.txt
 ```
 
 ## Features
 
-- Basic arithmetic operations (addition, subtraction, etc.)
 - Frontend built with React (via CDN) and Tailwind CSS
 - RESTful API backend using Flask
-- Unit tests for backend functionality
-
-## Prerequisites
-
-- Python 3.x
-- Web browser
-- Flask (Python web framework)
+- Unit tests for backend functionality using pytest
 
 ## Setup Instructions
 
-1. Clone the repository:
-
+2. Install requirements:
    ```bash
-   git clone <repository-url>
-   cd calculator-app
-   ```
-
-2. Set up the backend:
-   ```bash
-   cd backend
    pip install -r requirements.txt
    ```
 
@@ -67,8 +52,4 @@ python -m pytest test_app.py
 
 ## Additional Documentation
 
-For more details about cloud file transfer implementation, refer to `cloud-file-transfer-2025tht.docx`.
-
----
-
-This project is intended for educational purposes and as a take-home assignment demonstration.
+For more details about cloud file transfer project document, refer to `cloud-file-transfer-2025tht.docx`.
